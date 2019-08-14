@@ -2,7 +2,7 @@ interface Shortcut {
   id: string;
   shortLabel?: string;
   longLabel?: string;
-  iconPath?: string;
+  iconFromResource?: string;
   iconBitmap?: string;
   intent?: Intent;
 }
