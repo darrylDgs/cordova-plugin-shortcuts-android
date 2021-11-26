@@ -409,7 +409,7 @@ public class ShortcutsPlugin extends CordovaPlugin {
         Context context = this.cordova.getActivity().getApplicationContext();
 
         boolean result = ShortcutManagerCompat.requestPinShortcut(context, shortcut, null);
-        ShortcutManagerCompat.updateShortcuts(context, Collections.singletonList(shortcut));
+        //ShortcutManagerCompat.updateShortcuts(context, Collections.singletonList(shortcut));
 
         return result;
     }
